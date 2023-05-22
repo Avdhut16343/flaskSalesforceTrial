@@ -1,5 +1,7 @@
+import os
+
 #Secrets and keys
-OPENAI_KEY = "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"
+OPENAI_KEY = os.environ.get('OPENAI_KEY')
 # GOOGLE_SYSTEM_USER = 'C:/DDrive/Programming/Projects/Python/chatGPT/python-380019-d57c3aa77fac.json'
 
 #ChatGPT parameter controls
