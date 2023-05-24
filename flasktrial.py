@@ -15,7 +15,7 @@ def process():
     text = data.get('text')
     response = 'Processed: ' + text
 
-    return ChatGPT.getAIresponse(text)
+    return ChatGPT.generate_response(text)
 
 
 # Define a route to handle image uploads
