@@ -2,7 +2,8 @@ import openai
 
 
 # Ashish API
-openai.api_key ="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"
+# openai.api_key ="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"
+openai.api_key ="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"
 model_engine = "text-davinci-003"
 
 def generate_response(prompt):
