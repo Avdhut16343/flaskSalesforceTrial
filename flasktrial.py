@@ -13,9 +13,9 @@ app = Flask(__name__)
 def process():
     data = request.get_json()
     text = data.get('text')
-    response = 'Processed: ' + text
+    # response = 'Processed: ' + text
 
-    return ChatGPT.generate_response(text)
+    return ChatGPT.generate_response("How are you")
 
 
 # Define a route to handle image uploads
