@@ -18,7 +18,7 @@ Jinja2==3.1.2
 jsonify==0.5
 MarkupSafe==2.1.2
 multidict==6.0.4
-openai==0.27.6
+openai==0.27.7
 packaging==23.1
 Pillow==9.5.0
 pybase64==1.2.3
