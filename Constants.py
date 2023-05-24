@@ -1,8 +1,9 @@
 import os
 
 #Secrets and keys
-OPENAI_KEY = os.environ.get('OPENAI_KEY')
-# GOOGLE_SYSTEM_USER = 'C:/DDrive/Programming/Projects/Python/chatGPT/python-380019-d57c3aa77fac.json'
+#OPENAI_KEY = os.environ.get('OPENAI_KEY')
+OPENAI_KEY = "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"
+GOOGLE_SYSTEM_USER = 'C:/DDrive/Programming/Projects/Python/chatGPT/python-380019-d57c3aa77fac.json'
 
 #ChatGPT parameter controls
 CHATGPT_PERSONALITY_MODE = 'Nice' # Options  - (Nice, Rogue, Gangster)
