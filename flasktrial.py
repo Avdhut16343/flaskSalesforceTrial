@@ -14,6 +14,7 @@ def process():
     data = request.get_json()
     text = data.get('text')
     # response = 'Processed: ' + text
+    print('text='+text)
 
     return ChatGPT.generate_response(text)
 
