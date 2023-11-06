@@ -18,6 +18,12 @@ def process():
 
     return ChatGPT.generate_response(text)
 
+@app.route('/cchpi', methods['POST'])
+def cchp():
+    data=request.get_json();
+    text=data.get('text')
+    return ChatGPT.generate_cchpiInfo(text)
+
 
 # Define a route to handle image uploads
 @app.route('/upload', methods=['GET', 'POST'])
