@@ -18,7 +18,7 @@ def process():
 
     return ChatGPT.generate_response(text)
 
-@app.route('/cchpi', methods['POST'])
+@app.route('/cchpi', methods=['POST'])
 def cchp():
     data=request.get_json();
     text=data.get('text')
